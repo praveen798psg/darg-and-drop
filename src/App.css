@@ -19,10 +19,6 @@
 
 
 }
-/* #t1 h2{
-  font-size: larger;
-} */
-
 .toolbox-item {
   margin-bottom: 10px;
   cursor: pointer;
@@ -62,7 +58,40 @@
   cursor: pointer;
 }
 
-/* Additional styling for better visibility */
 .delete-button:hover {
   background-color: darkred;
+}
+@media screen and (max-width:768px) {
+  #t1 {
+    font-size: large;
+    padding: 4rem .5rem !important;
+    position: fixed;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.card{
+  width:100% !important;
+  margin: -2.5rem 0px 59px 0px !important;
+}
+  
+}
+@media screen and (max-width:425px) {
+  #t1{
+    font-size: smaller !important;
+
+  }#toolbox {
+    width: 20%;
+    overflow-y: auto;
+    background-color: #f0f0f0;
+    padding: 6px !important;
+}.card {
+  width: 100% !important;
+  margin: -2.5rem 0px 59px -8px !important;
+}
+.p1{
+  font-size: large;
+  display: inline-table;
+  width: 95% !important;}
+  
 }
